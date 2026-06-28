@@ -13,15 +13,9 @@ import {
   DiReact,
   DiScrum,
 } from 'react-icons/di';
-import {
-  SiTypescript,
-  SiCsharp,
-  SiMui,
-  SiDocker,
-  SiJavascript,
-} from 'react-icons/si';
+import { SiTypescript, SiMui, SiDocker, SiJavascript } from 'react-icons/si';
+import { TbBrandCSharp, TbBrandAzure } from 'react-icons/tb';
 import { RiFirebaseFill, RiTailwindCssFill } from 'react-icons/ri';
-import { TbBrandAzure } from 'react-icons/tb';
 
 import { Card } from 'flowbite-react';
 import data from 'data/index';
@@ -47,7 +41,7 @@ const icons = [
   { icon: DiMysql, title: 'MySQL' },
   { icon: DiMongodb, title: 'MongoDB' },
   { icon: DiPostgresql, title: 'PostgreSQL' },
-  { icon: SiCsharp, title: 'CSharp, .NET Framework, .NETCore' },
+  { icon: TbBrandCSharp, title: 'CSharp, .NET Framework, .NETCore' },
   { icon: SiDocker, title: 'Docker' },
 ];
 

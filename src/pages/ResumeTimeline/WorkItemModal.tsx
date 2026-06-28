@@ -48,7 +48,9 @@ const WorkItemModal: React.FC = () => {
 
         <Heading>Highlights</Heading>
         <List className="ml-6 list-outside text-black dark:text-white">
-          {work.highlights?.map((h) => <List.Item key={h}>{h}</List.Item>)}
+          {work.highlights?.map((h) => (
+            <List.Item key={h}>{h}</List.Item>
+          ))}
         </List>
 
         {work.skills && (
