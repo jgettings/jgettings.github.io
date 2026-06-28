@@ -1,6 +1,6 @@
 import { twMerge } from 'tailwind-merge';
 import { IconType } from 'react-icons';
-import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 import { basics } from 'data/resume.json';
 
@@ -11,7 +11,6 @@ type SocialLinksProps = {
 const iconMap: Record<string, IconType> = {
   LinkedIn: FaLinkedin,
   Github: FaGithub,
-  Instagram: FaInstagram,
 };
 
 const SocialLinks: React.FC<SocialLinksProps> = ({ className }) => (
