@@ -6,7 +6,7 @@ const dateFormat = 'LLL d, yyyy';
 type ResumeTimelineDatesProps = {
   className?: string;
   startDate: string;
-  endDate: string;
+  endDate?: string;
 };
 
 const ResumeTimelineDates: React.FC<ResumeTimelineDatesProps> = ({
@@ -25,13 +25,17 @@ const ResumeTimelineDates: React.FC<ResumeTimelineDatesProps> = ({
       {format(startDate, dateFormat)}
     </time>{' '}
     -{' '}
-    <time
-      dateTime={endDate}
-      className={twMerge('mb-1 text-sm font-normal leading-none', className)}
-    >
-      {' '}
-      {format(endDate, dateFormat)}
-    </time>
+    {endDate ? (
+      <time
+        dateTime={endDate}
+        className={twMerge('mb-1 text-sm font-normal leading-none', className)}
+      >
+        {' '}
+        {format(endDate, dateFormat)}
+      </time>
+    ) : (
+      'present'
+    )}
   </span>
 );
 

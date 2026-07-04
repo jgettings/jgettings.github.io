@@ -12,6 +12,11 @@ const getNavLabel = (item: WorkItem | null) => {
     return '';
   }
 
+  if (!item.endDate) {
+    // todo add unit test for this?
+    return `${item.position} at ${item.name}, ${format(item.startDate as string, 'yyyy')} - present`;
+  }
+
   return `${item.position} at ${item.name}, ${format(item.startDate as string, 'yyyy')} - ${format(item.endDate as string, 'yyyy')}`;
 };
 

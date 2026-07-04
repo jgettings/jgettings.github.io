@@ -5,7 +5,7 @@ const config = {
   singleQuote: true,
   printWidth: 80,
   useTabs: false,
-  endOfLine: 'auto',
+  endOfLine: 'lf',
   plugins: ['prettier-plugin-tailwindcss'],
   // tailwindcss
   tailwindAttributes: ['theme'],

@@ -9,7 +9,7 @@ type HistorySummaryProps = {
 const HistorySummary: React.FC<HistorySummaryProps> = ({ linkedInUrl }) => (
   <Card>
     Experience on a wide variety of products and teams: Startups, SaaS, Internal
-    tooling, and client work. Fully remote for the past 4 years.
+    tooling, and client work. Remote and hybrid since 2020.
     {linkedInUrl && (
       <div className="sm:flex sm:space-x-4 sm:space-y-0 items-center justify-center space-y-4">
         <a

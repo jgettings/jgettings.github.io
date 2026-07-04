@@ -1,12 +1,13 @@
 import { Card } from 'flowbite-react';
 import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri';
 import data from 'data/index';
+import parse from './basicDataParsing';
 import HistorySummary from './HistorySummary';
 import SkillsSummary from './SkillsSummary';
 import FactsSummary from './FactsSummary';
 
 const Basics: React.FC = () => {
-  const { basics } = data;
+  const { basics, work } = data;
   if (basics === undefined) {
     return null;
   }
@@ -15,11 +16,16 @@ const Basics: React.FC = () => {
     (p) => p.network === 'LinkedIn',
   )?.url;
 
+  const yearsExperience = parse.getYearsExperience(
+    work as { startDate: string }[],
+    new Date(),
+  );
+
   return (
     <section className="flex flex-col items-center">
       <h2 className="sr-only">Basics</h2>
 
-      <FactsSummary basics={basics} />
+      <FactsSummary basics={basics} yearsExperience={yearsExperience} />
       <Card>{basics.summary}</Card>
 
       <HistorySummary linkedInUrl={linkedInUrl} />
