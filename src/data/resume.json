@@ -35,7 +35,7 @@
       "position": "Senior Software Engineer",
       "url": "https://bubble.io/",
       "location": "Hybrid - NYC",
-      "summary": "I need a description",
+      "summary": "No-code platform that lets users build full-featured apps. Mainly working on the editor interface that lets users edit and configure their apps. Founding member of the Developer Experience team.",
       "skills": {
         "primary": [
           "SolidJS",
@@ -58,8 +58,15 @@
         ]
       },
       "startDate": "2024-11-19",
-      "highlights": ["Devex"],
-      "projects": ["Settings Tab", "App Switcher", "Behavioral Tests"]
+      "highlights": [
+        "Founding member of Developer Experience team in December 2025. Focused on improving tooling and processes for engineers working at Bubble.",
+        "Helping to improve documentation and tooling for AI agents to be more efficient and effective at working in the large legacy codebase.",
+        "Identified a lack of unit testing on the frontend and took on a side project to implement React Testing Library for frontend components using SolidJS, before the Developer Experience team was created.",
+        "Coordinated an effort to improve behavioral test flakiness and speed by encouraging best practices via linting and documentation. Added tooling to help detect and diagnose flaky tests.",
+        "Led feature team in a redesign of a widely used interface, finding ways to reduce risk by keeping some legacy code intact while only refactoring necessary components. Began shifting team processes around adding automated tests early on in the project.",
+        "Architected new feature to let users manage apps within a project, so they can more easily add a web or mobile app."
+      ],
+      "projects": ["Settings Tab", "App Switcher", "Behavioral Tests", "Testing Library"]
     },
     {
       "name": "Wagmo",

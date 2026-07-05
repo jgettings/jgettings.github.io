@@ -22,10 +22,10 @@ import {
   SiGithubactions,
   SiCypress,
   SiJest,
+  SiTestinglibrary,
 } from 'react-icons/si';
 import { TbBrandCSharp, TbBrandAzure, TbBrandSolidjs } from 'react-icons/tb';
 import {
-  RiFirebaseFill,
   RiTailwindCssFill,
   RiCursorAiFill,
   RiAngularjsFill,
@@ -46,24 +46,24 @@ const icons = [
   { icon: SiJavascript, title: 'JavaScript' },
   { icon: SiCypress, title: 'Cypress' },
   { icon: SiJest, title: 'Jest' },
+  { icon: SiTestinglibrary, title: 'Testing Library' },
   { icon: FaNodeJs, title: 'NodeJS' },
+
   { icon: DiHtml5, title: 'HTML' },
   { icon: DiCss3, title: 'CSS' },
   { icon: DiNpm, title: 'NPM' },
   { icon: SiMui, title: 'Material UI' },
   { icon: RiTailwindCssFill, title: 'Tailwind' },
   { icon: RiAngularjsFill, title: 'AngularJS' },
-
   { icon: DiAtlassian, title: 'Atlassian' },
   { icon: DiScrum, title: 'Agile, Scrum' },
   { icon: FaGithub, title: 'Github' },
   { icon: SiGithubactions, title: 'Github Actions' },
+
   { icon: DiGoogleCloudPlatform, title: 'Google Cloud Platform' },
-  { icon: RiFirebaseFill, title: 'Firebase' },
   { icon: TbBrandAzure, title: 'Azure' },
   { icon: SiStorybook, title: 'Storybook' },
   { icon: SiEslint, title: 'EsLint' },
-
   { icon: DiJava, title: 'Java' },
   { icon: DiMysql, title: 'MySQL' },
   { icon: DiMongodb, title: 'MongoDB' },
@@ -81,7 +81,7 @@ const SkillsSummary: React.FC = () => {
   return (
     <Card>
       Specializing on frontend work in React, Typescript, and similar languages
-      for the past 10 years, prior to that was all full stack in a few different
+      for the past 10 years, prior to that I was across the stack in a few different
       enterprise languages.
       <div className="flex flex-wrap justify-center gap-5">
         {icons.map(({ icon, title }) => (
