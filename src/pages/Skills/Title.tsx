@@ -6,13 +6,15 @@ import {
   DiGithubAlt,
   DiAndroid,
 } from 'react-icons/di';
-import { TbBrandAzure } from 'react-icons/tb';
 import { SiJest, SiGooglemaps } from 'react-icons/si';
 import { GrGraphQl } from 'react-icons/gr';
 import { FaUniversalAccess } from 'react-icons/fa';
+import { TbBrandAzure, TbBrandSolidjs, TbSparklesFilled } from 'react-icons/tb';
 
 const IconMap: Record<string, IconType> = {
   React: DiReact,
+  'AI Tooling': TbSparklesFilled,
+  SolidJS: TbBrandSolidjs,
   'Web Development': DiHtml5,
   'Web Accessibility': FaUniversalAccess,
   Agile: DiScrum,

@@ -42,7 +42,7 @@ const icons = [
   { icon: TbBrandSolidjs, title: 'SolidJS' },
   { icon: SiTypescript, title: 'TypeScript' },
   { icon: BsClaude, title: 'Claude' },
-  { icon: RiCursorAiFill as IconType, title: 'Cursor' },
+  { icon: RiCursorAiFill as IconType, title: 'Cursor' }, // eslint-disable-line @typescript-eslint/no-unnecessary-type-assertion
   { icon: SiJavascript, title: 'JavaScript' },
   { icon: SiCypress, title: 'Cypress' },
   { icon: SiJest, title: 'Jest' },
@@ -81,8 +81,8 @@ const SkillsSummary: React.FC = () => {
   return (
     <Card>
       Specializing on frontend work in React, Typescript, and similar languages
-      for the past 10 years, prior to that I was across the stack in a few different
-      enterprise languages.
+      for the past 10 years, prior to that I was across the stack in a few
+      different enterprise languages.
       <div className="flex flex-wrap justify-center gap-5">
         {icons.map(({ icon, title }) => (
           <span key={title}>{icon({ size: '2em', title })}</span>

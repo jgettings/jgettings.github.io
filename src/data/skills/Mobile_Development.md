@@ -2,6 +2,3 @@ As the relative Java expert in my time at _Studio_, I did a small amount of main
 
 Since most of my work has been in webapps I have created many responsive components, apps, and pages. Usually this has involved a component library or css framework but I've also created plenty of responsive UIs from scratch with media queries.
 
-#### Public Projects
-
-- [Central Park Android App](https://play.google.com/store/apps/details?id=com.centralpark.mobile&hl=en_US)

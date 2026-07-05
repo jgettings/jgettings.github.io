@@ -1,4 +1,4 @@
-Throughout the years I've encountered many third party APIs and I'm sure the list below is incomplete. I've worked with google maps on a few different occasions and a handful of other private APIs specific to the domains I've worked with. I've also created a few simple Slackbots to alert the team to status updates for various internal services.
+Throughout the years I've encountered many third party APIs and I'm sure the list below is incomplete. I've worked with google maps on a few different occasions and a handful of other private APIs specific to the domains I've worked with. I've also created a few simple Slackbots to alert the team to status updates for various internal services. I have set up oauth flows for many different apps and scenarios. And most recently, I have worked a lot with Stripe for payments within Bubble.
 
 #### Public Projects
 

@@ -487,6 +487,29 @@
       ]
     },
     {
+      "name": "AI Tooling",
+      "level": "Advanced",
+      "keywords": [
+        "Claude",
+        "Claude Code",
+        "Cursor",
+        "Skills",
+        "MCP"
+      ]
+    },
+    {
+      "name": "SolidJS",
+      "level": "Advanced",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JS",
+        "SolidJS",
+        "Kobalte"
+      ]
+    },
+    {
       "name": "Web Development",
       "level": "Master",
       "keywords": [
@@ -529,6 +552,7 @@
         "AngularJS",
         "Jest",
         "React Testing Library",
+        "Playwright",
         "Cypress",
         "Jasmine",
         "Karma",
